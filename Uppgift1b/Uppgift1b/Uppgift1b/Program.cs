@@ -124,7 +124,7 @@ namespace Uppgift1b
             //Exempel: Givet att "tal1" = 2 och "tal2" = 10 ska det skrivas ut i konsolen:
             //Produkten av talen 2 och 10 är: 20
             //Kod här
-            Console.WriteLine(tal1 * tal2);
+            Console.WriteLine($"Produkten av talen {tal1} och {tal2} är: {tal1*tal2}");
             
             
         }
