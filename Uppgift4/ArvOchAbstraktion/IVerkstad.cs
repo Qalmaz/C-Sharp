@@ -30,7 +30,7 @@ namespace ArvOchAbstraktion
             FordonsLista.Remove(fordon);
         }
             
-        public void PrintAllFordon(Verkstad verkstad)
+        /*public void PrintAllFordon(Verkstad verkstad)
         {
             foreach (object item in FordonsLista)
             {
@@ -38,14 +38,15 @@ namespace ArvOchAbstraktion
 
             }
 
-        }
-        public void PrintOutFordon(Fordon fordon) 
+        }*/
+
+        /*public void PrintOutFordon(Fordon fordon) 
         {
            if (FordonsLista.Contains(fordon))
             {
                 Console.WriteLine(fordon);
             }
-        }
+        }*/
      
         public Fordon HittaFordon(string regNr)
         {
